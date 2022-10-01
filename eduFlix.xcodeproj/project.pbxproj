@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141E8575280F168600886AC6 /* FetchWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E8574280F168600886AC6 /* FetchWeatherData.swift */; };
+		141E8577280F24BF00886AC6 /* WeatherDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E8576280F24BF00886AC6 /* WeatherDetailsView.swift */; };
+		141E8579280F250E00886AC6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E8578280F250E00886AC6 /* WeatherModel.swift */; };
+		141E857B280F252E00886AC6 /* WeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 141E857A280F252E00886AC6 /* WeatherData.json */; };
+		141E857D280F28F900886AC6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E857C280F28F900886AC6 /* Extension.swift */; };
+		142210CC281F009E00CB9BCB /* eduFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142210CB281F009E00CB9BCB /* eduFlixTests.swift */; };
+		142210D3281F021400CB9BCB /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142210D2281F021400CB9BCB /* ToDoTests.swift */; };
+		142210D6281F03FE00CB9BCB /* UnitTestingTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142210D5281F03FE00CB9BCB /* UnitTestingTodoView.swift */; };
+		142210D8281F062600CB9BCB /* UnitTestingTodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142210D7281F062600CB9BCB /* UnitTestingTodoViewModel.swift */; };
+		1433DA48280EDC350067E87A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA47280EDC350067E87A /* WeatherView.swift */; };
+		1433DA4E280EE10C0067E87A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA4D280EE10C0067E87A /* LocationManager.swift */; };
+		1433DA50280EE3660067E87A /* ConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA4F280EE3660067E87A /* ConsentView.swift */; };
+		1433DA52280EEDAD0067E87A /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA51280EEDAD0067E87A /* Loading.swift */; };
+		143774F6281DD28E00C8A3DF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143774F5281DD28D00C8A3DF /* CalendarView.swift */; };
+		143774F9281DD2F500C8A3DF /* DeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143774F8281DD2F500C8A3DF /* DeadlineView.swift */; };
+		143774FC281DD39700C8A3DF /* CalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143774FB281DD39700C8A3DF /* CalendarVM.swift */; };
+		143774FE281DD3E100C8A3DF /* CalendarCoreVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143774FD281DD3E100C8A3DF /* CalendarCoreVM.swift */; };
+		14377503281DD44200C8A3DF /* CalendarModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14377502281DD44200C8A3DF /* CalendarModelItem.swift */; };
+		14377506281DDAA400C8A3DF /* CalendarDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14377504281DDAA400C8A3DF /* CalendarDataModel.xcdatamodeld */; };
+		144D3FFD280826320045DE85 /* AddDeleteCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D3FFC280826320045DE85 /* AddDeleteCards.swift */; };
+		147AE467280DEE5200C1DECA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE466280DEE5200C1DECA /* LoginView.swift */; };
+		147AE46A280DEECD00C1DECA /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE469280DEECD00C1DECA /* LoginHeaderView.swift */; };
+		147AE46C280DEEE500C1DECA /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE46B280DEEE500C1DECA /* EmailView.swift */; };
+		147AE46E280DEEF900C1DECA /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE46D280DEEF900C1DECA /* PasswordView.swift */; };
+		147AE470280DEF1000C1DECA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE46F280DEF1000C1DECA /* ButtonView.swift */; };
+		147AE472280DEF2600C1DECA /* UserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE471280DEF2600C1DECA /* UserNameView.swift */; };
+		14816D3A2808C326003B0E5D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D392808C326003B0E5D /* ImagePicker.swift */; };
+		14816D3D2808C396003B0E5D /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D3C2808C396003B0E5D /* ImageDataModel.swift */; };
+		14816D432808C424003B0E5D /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D422808C424003B0E5D /* NoteView.swift */; };
+		14816D452808C432003B0E5D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D442808C432003B0E5D /* MainView.swift */; };
+		148A46A228202A1300B9E552 /* Notes_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148A46A128202A1300B9E552 /* Notes_UITests.swift */; };
+		148F9C37280F3A2600FAF64B /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F9C36280F3A2600FAF64B /* WeatherRow.swift */; };
+		14C46B2D281AD73C003DB014 /* NotesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C46B2C281AD73C003DB014 /* NotesError.swift */; };
+		14C46B2F281B1559003DB014 /* Help.json in Resources */ = {isa = PBXBuildFile; fileRef = 14C46B2E281B1559003DB014 /* Help.json */; };
+		14C46B32281B1587003DB014 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C46B31281B1587003DB014 /* Help.swift */; };
+		14C46B34281B159D003DB014 /* HelpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C46B33281B159D003DB014 /* HelpUIView.swift */; };
+		14CBB64F28084984005F1A2B /* ToDoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB64E28084984005F1A2B /* ToDoRow.swift */; };
+		14CBB65128084A9D005F1A2B /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65028084A9D005F1A2B /* AddToDoView.swift */; };
+		14CBB65328084D19005F1A2B /* AddBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65228084D19005F1A2B /* AddBtn.swift */; };
+		14CBB65528084EDE005F1A2B /* ToDoFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65428084EDE005F1A2B /* ToDoFinalView.swift */; };
+		14CBB6582808541D005F1A2B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 14CBB6572808541D005F1A2B /* Realm */; };
+		14CBB65A2808541D005F1A2B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 14CBB6592808541D005F1A2B /* RealmSwift */; };
+		14CBB65C2808543A005F1A2B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65B2808543A005F1A2B /* RealmManager.swift */; };
+		14CBB65E2808552D005F1A2B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65D2808552D005F1A2B /* Task.swift */; };
+		14CCEAEB28180A2C00ED99F2 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCEAEA28180A2C00ED99F2 /* HomeHeaderView.swift */; };
+		14CCEAED28180B3400ED99F2 /* SectionInsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCEAEC28180B3400ED99F2 /* SectionInsetView.swift */; };
+		14CCEAEF28180B5800ED99F2 /* FlashCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCEAEE28180B5800ED99F2 /* FlashCardSectionView.swift */; };
+		14CCEAF128180B8000ED99F2 /* FlashCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCEAF028180B8000ED99F2 /* FlashCardItem.swift */; };
+		14CCEAF328180BA600ED99F2 /* NotesSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCEAF228180BA600ED99F2 /* NotesSectionView.swift */; };
+		14CCEAF528180BC200ED99F2 /* NoteCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCEAF428180BC200ED99F2 /* NoteCardItem.swift */; };
+		14CCEAF728180BE800ED99F2 /* ActiveTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCEAF628180BE800ED99F2 /* ActiveTab.swift */; };
+		14D7514128020030006DFE0F /* eduFlixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7514028020030006DFE0F /* eduFlixApp.swift */; };
+		14D7514328020030006DFE0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7514228020030006DFE0F /* ContentView.swift */; };
+		14D7514528020031006DFE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7514428020031006DFE0F /* Assets.xcassets */; };
+		14D7514828020031006DFE0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7514728020031006DFE0F /* Preview Assets.xcassets */; };
+		14DDB91A2806D3F900CC3957 /* ToDosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9192806D3F900CC3957 /* ToDosView.swift */; };
+		14DDB91C2806D40500CC3957 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB91B2806D40500CC3957 /* NotesView.swift */; };
+		14DDB91E2806D40F00CC3957 /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB91D2806D40F00CC3957 /* FlashCardsView.swift */; };
+		14DDB9202806D42900CC3957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB91F2806D42900CC3957 /* HomeView.swift */; };
+		14DDB9222806D44D00CC3957 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9212806D44D00CC3957 /* ProfileView.swift */; };
+		14DDB9252806D75700CC3957 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9242806D75700CC3957 /* Card.swift */; };
+		14DDB9492806FC9F00CC3957 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9482806FC9F00CC3957 /* AppView.swift */; };
+		14DDC907281FFC78006BE268 /* eduFlix_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDC906281FFC78006BE268 /* eduFlix_UITests.swift */; };
+		14DDC909281FFC78006BE268 /* eduFlix_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDC908281FFC78006BE268 /* eduFlix_UITestsLaunchTests.swift */; };
+		14DDC910281FFD7F006BE268 /* HomeViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDC90F281FFD7F006BE268 /* HomeViewUITest.swift */; };
+		14F6DA45282043ED008A8BBC /* UnitTestingNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6DA44282043ED008A8BBC /* UnitTestingNotes.swift */; };
+		14F6DA472820446E008A8BBC /* UnitTestingNotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6DA462820446E008A8BBC /* UnitTestingNotesViewModel.swift */; };
+		14F6DA492820455A008A8BBC /* NotesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6DA482820455A008A8BBC /* NotesTest.swift */; };
+		14F6DA4C28204857008A8BBC /* UnitTestingFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6DA4B28204857008A8BBC /* UnitTestingFlashcards.swift */; };
+		14F6DA4E282048E2008A8BBC /* UnitTestingFlashcardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6DA4D282048E2008A8BBC /* UnitTestingFlashcardsViewModel.swift */; };
+		14F6DA5028204935008A8BBC /* FlashcardsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6DA4F28204935008A8BBC /* FlashcardsTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		142210CD281F009E00CB9BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14D7513528020030006DFE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14D7513C28020030006DFE0F;
+			remoteInfo = eduFlix;
+		};
+		14DDC90A281FFC78006BE268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14D7513528020030006DFE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14D7513C28020030006DFE0F;
+			remoteInfo = eduFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141E8574280F168600886AC6 /* FetchWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWeatherData.swift; sourceTree = "<group>"; };
+		141E8576280F24BF00886AC6 /* WeatherDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsView.swift; sourceTree = "<group>"; };
+		141E8578280F250E00886AC6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		141E857A280F252E00886AC6 /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
+		141E857C280F28F900886AC6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		142210C9281F009E00CB9BCB /* eduFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eduFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142210CB281F009E00CB9BCB /* eduFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduFlixTests.swift; sourceTree = "<group>"; };
+		142210D2281F021400CB9BCB /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
+		142210D5281F03FE00CB9BCB /* UnitTestingTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingTodoView.swift; sourceTree = "<group>"; };
+		142210D7281F062600CB9BCB /* UnitTestingTodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingTodoViewModel.swift; sourceTree = "<group>"; };
+		1433DA47280EDC350067E87A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		1433DA4D280EE10C0067E87A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1433DA4F280EE3660067E87A /* ConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentView.swift; sourceTree = "<group>"; };
+		1433DA51280EEDAD0067E87A /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		143774F5281DD28D00C8A3DF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		143774F8281DD2F500C8A3DF /* DeadlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineView.swift; sourceTree = "<group>"; };
+		143774FB281DD39700C8A3DF /* CalendarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVM.swift; sourceTree = "<group>"; };
+		143774FD281DD3E100C8A3DF /* CalendarCoreVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCoreVM.swift; sourceTree = "<group>"; };
+		14377502281DD44200C8A3DF /* CalendarModelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModelItem.swift; sourceTree = "<group>"; };
+		14377505281DDAA400C8A3DF /* CalendarDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalendarDataModel.xcdatamodel; sourceTree = "<group>"; };
+		144D3FFC280826320045DE85 /* AddDeleteCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeleteCards.swift; sourceTree = "<group>"; };
+		147AE466280DEE5200C1DECA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		147AE469280DEECD00C1DECA /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		147AE46B280DEEE500C1DECA /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		147AE46D280DEEF900C1DECA /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		147AE46F280DEF1000C1DECA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		147AE471280DEF2600C1DECA /* UserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameView.swift; sourceTree = "<group>"; };
+		14816D392808C326003B0E5D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		14816D3C2808C396003B0E5D /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		14816D422808C424003B0E5D /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		14816D442808C432003B0E5D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		148A46A128202A1300B9E552 /* Notes_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_UITests.swift; sourceTree = "<group>"; };
+		148F9C36280F3A2600FAF64B /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		14C46B2C281AD73C003DB014 /* NotesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesError.swift; sourceTree = "<group>"; };
+		14C46B2E281B1559003DB014 /* Help.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Help.json; sourceTree = "<group>"; };
+		14C46B31281B1587003DB014 /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		14C46B33281B159D003DB014 /* HelpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpUIView.swift; sourceTree = "<group>"; };
+		14CBB64E28084984005F1A2B /* ToDoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRow.swift; sourceTree = "<group>"; };
+		14CBB65028084A9D005F1A2B /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		14CBB65228084D19005F1A2B /* AddBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBtn.swift; sourceTree = "<group>"; };
+		14CBB65428084EDE005F1A2B /* ToDoFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFinalView.swift; sourceTree = "<group>"; };
+		14CBB65B2808543A005F1A2B /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		14CBB65D2808552D005F1A2B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		14CCEAEA28180A2C00ED99F2 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		14CCEAEC28180B3400ED99F2 /* SectionInsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInsetView.swift; sourceTree = "<group>"; };
+		14CCEAEE28180B5800ED99F2 /* FlashCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardSectionView.swift; sourceTree = "<group>"; };
+		14CCEAF028180B8000ED99F2 /* FlashCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardItem.swift; sourceTree = "<group>"; };
+		14CCEAF228180BA600ED99F2 /* NotesSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSectionView.swift; sourceTree = "<group>"; };
+		14CCEAF428180BC200ED99F2 /* NoteCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCardItem.swift; sourceTree = "<group>"; };
+		14CCEAF628180BE800ED99F2 /* ActiveTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTab.swift; sourceTree = "<group>"; };
+		14D7513D28020030006DFE0F /* eduFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eduFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D7514028020030006DFE0F /* eduFlixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduFlixApp.swift; sourceTree = "<group>"; };
+		14D7514228020030006DFE0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14D7514428020031006DFE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D7514728020031006DFE0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14DDB9192806D3F900CC3957 /* ToDosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosView.swift; sourceTree = "<group>"; };
+		14DDB91B2806D40500CC3957 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		14DDB91D2806D40F00CC3957 /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
+		14DDB91F2806D42900CC3957 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14DDB9212806D44D00CC3957 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		14DDB9242806D75700CC3957 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		14DDB9482806FC9F00CC3957 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		14DDC904281FFC78006BE268 /* eduFlix_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eduFlix_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DDC906281FFC78006BE268 /* eduFlix_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduFlix_UITests.swift; sourceTree = "<group>"; };
+		14DDC908281FFC78006BE268 /* eduFlix_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduFlix_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14DDC90F281FFD7F006BE268 /* HomeViewUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewUITest.swift; sourceTree = "<group>"; };
+		14F6DA44282043ED008A8BBC /* UnitTestingNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingNotes.swift; sourceTree = "<group>"; };
+		14F6DA462820446E008A8BBC /* UnitTestingNotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingNotesViewModel.swift; sourceTree = "<group>"; };
+		14F6DA482820455A008A8BBC /* NotesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTest.swift; sourceTree = "<group>"; };
+		14F6DA4B28204857008A8BBC /* UnitTestingFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingFlashcards.swift; sourceTree = "<group>"; };
+		14F6DA4D282048E2008A8BBC /* UnitTestingFlashcardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingFlashcardsViewModel.swift; sourceTree = "<group>"; };
+		14F6DA4F28204935008A8BBC /* FlashcardsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142210C6281F009E00CB9BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D7513A28020030006DFE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBB65A2808541D005F1A2B /* RealmSwift in Frameworks */,
+				14CBB6582808541D005F1A2B /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DDC901281FFC78006BE268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142210CA281F009E00CB9BCB /* eduFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				142210CB281F009E00CB9BCB /* eduFlixTests.swift */,
+				142210D2281F021400CB9BCB /* ToDoTests.swift */,
+				14F6DA482820455A008A8BBC /* NotesTest.swift */,
+				14F6DA4F28204935008A8BBC /* FlashcardsTest.swift */,
+			);
+			path = eduFlixTests;
+			sourceTree = "<group>";
+		};
+		142210D4281F03DE00CB9BCB /* UnitTestingTodo */ = {
+			isa = PBXGroup;
+			children = (
+				142210D5281F03FE00CB9BCB /* UnitTestingTodoView.swift */,
+				142210D7281F062600CB9BCB /* UnitTestingTodoViewModel.swift */,
+			);
+			path = UnitTestingTodo;
+			sourceTree = "<group>";
+		};
+		1433DA49280EDC450067E87A /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				1433DA4A280EE0DC0067E87A /* Manager */,
+				1433DA4F280EE3660067E87A /* ConsentView.swift */,
+				1433DA51280EEDAD0067E87A /* Loading.swift */,
+				141E8574280F168600886AC6 /* FetchWeatherData.swift */,
+				141E8576280F24BF00886AC6 /* WeatherDetailsView.swift */,
+				141E857C280F28F900886AC6 /* Extension.swift */,
+				148F9C36280F3A2600FAF64B /* WeatherRow.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		1433DA4A280EE0DC0067E87A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1433DA4D280EE10C0067E87A /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		143774F7281DD2E400C8A3DF /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				143774FA281DD38500C8A3DF /* ViewModel */,
+				143774F8281DD2F500C8A3DF /* DeadlineView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		143774FA281DD38500C8A3DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				143774FF281DD40C00C8A3DF /* Model */,
+				143774FB281DD39700C8A3DF /* CalendarVM.swift */,
+				143774FD281DD3E100C8A3DF /* CalendarCoreVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		143774FF281DD40C00C8A3DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14377502281DD44200C8A3DF /* CalendarModelItem.swift */,
+				14377504281DDAA400C8A3DF /* CalendarDataModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		147AE468280DEEAF00C1DECA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				147AE469280DEECD00C1DECA /* LoginHeaderView.swift */,
+				147AE46B280DEEE500C1DECA /* EmailView.swift */,
+				147AE46D280DEEF900C1DECA /* PasswordView.swift */,
+				147AE46F280DEF1000C1DECA /* ButtonView.swift */,
+				147AE471280DEF2600C1DECA /* UserNameView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		14816D372808C2EB003B0E5D /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				14816D3B2808C376003B0E5D /* ImageData */,
+				14816D382808C2FE003B0E5D /* ImagePicker */,
+				14816D422808C424003B0E5D /* NoteView.swift */,
+				14816D442808C432003B0E5D /* MainView.swift */,
+				14C46B2C281AD73C003DB014 /* NotesError.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		14816D382808C2FE003B0E5D /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				14816D392808C326003B0E5D /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		14816D3B2808C376003B0E5D /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				14816D3C2808C396003B0E5D /* ImageDataModel.swift */,
+			);
+			path = ImageData;
+			sourceTree = "<group>";
+		};
+		14C46B30281B1576003DB014 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				14C46B31281B1587003DB014 /* Help.swift */,
+				14C46B33281B159D003DB014 /* HelpUIView.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		14CBB64D28084969005F1A2B /* ToDoModel */ = {
+			isa = PBXGroup;
+			children = (
+				14DDB9192806D3F900CC3957 /* ToDosView.swift */,
+				14CBB64E28084984005F1A2B /* ToDoRow.swift */,
+				14CBB65028084A9D005F1A2B /* AddToDoView.swift */,
+				14CBB65228084D19005F1A2B /* AddBtn.swift */,
+				14CBB65B2808543A005F1A2B /* RealmManager.swift */,
+				14CBB65D2808552D005F1A2B /* Task.swift */,
+			);
+			path = ToDoModel;
+			sourceTree = "<group>";
+		};
+		14CCEAE9281809B100ED99F2 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				14CCEAEA28180A2C00ED99F2 /* HomeHeaderView.swift */,
+				14CCEAEC28180B3400ED99F2 /* SectionInsetView.swift */,
+				14CCEAEE28180B5800ED99F2 /* FlashCardSectionView.swift */,
+				14CCEAF028180B8000ED99F2 /* FlashCardItem.swift */,
+				14CCEAF228180BA600ED99F2 /* NotesSectionView.swift */,
+				14CCEAF428180BC200ED99F2 /* NoteCardItem.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		14D7513428020030006DFE0F = {
+			isa = PBXGroup;
+			children = (
+				14D7513F28020030006DFE0F /* eduFlix */,
+				142210CA281F009E00CB9BCB /* eduFlixTests */,
+				14DDC905281FFC78006BE268 /* eduFlix_UITests */,
+				14D7513E28020030006DFE0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14D7513E28020030006DFE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14D7513D28020030006DFE0F /* eduFlix.app */,
+				142210C9281F009E00CB9BCB /* eduFlixTests.xctest */,
+				14DDC904281FFC78006BE268 /* eduFlix_UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14D7513F28020030006DFE0F /* eduFlix */ = {
+			isa = PBXGroup;
+			children = (
+				14F6DA4A28204817008A8BBC /* UnitTestingFlashcards */,
+				14F6DA43282043D3008A8BBC /* UnitTestNotes */,
+				142210D4281F03DE00CB9BCB /* UnitTestingTodo */,
+				143774F7281DD2E400C8A3DF /* Calendar */,
+				14C46B30281B1576003DB014 /* Help */,
+				1433DA49280EDC450067E87A /* Weather */,
+				147AE468280DEEAF00C1DECA /* Login */,
+				14816D372808C2EB003B0E5D /* Notes */,
+				14CBB64D28084969005F1A2B /* ToDoModel */,
+				14DDB9472806FC5600CC3957 /* Views */,
+				14DDB9232806D74A00CC3957 /* Flashcards */,
+				14D7514028020030006DFE0F /* eduFlixApp.swift */,
+				14D7514428020031006DFE0F /* Assets.xcassets */,
+				14D7514628020031006DFE0F /* Preview Content */,
+				14CCEAF628180BE800ED99F2 /* ActiveTab.swift */,
+			);
+			path = eduFlix;
+			sourceTree = "<group>";
+		};
+		14D7514628020031006DFE0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14D7514728020031006DFE0F /* Preview Assets.xcassets */,
+				141E8578280F250E00886AC6 /* WeatherModel.swift */,
+				141E857A280F252E00886AC6 /* WeatherData.json */,
+				14C46B2E281B1559003DB014 /* Help.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14DDB9232806D74A00CC3957 /* Flashcards */ = {
+			isa = PBXGroup;
+			children = (
+				14DDB91D2806D40F00CC3957 /* FlashCardsView.swift */,
+				14DDB9242806D75700CC3957 /* Card.swift */,
+				144D3FFC280826320045DE85 /* AddDeleteCards.swift */,
+			);
+			path = Flashcards;
+			sourceTree = "<group>";
+		};
+		14DDB9472806FC5600CC3957 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14CCEAE9281809B100ED99F2 /* CustomViews */,
+				14D7514228020030006DFE0F /* ContentView.swift */,
+				14DDB91F2806D42900CC3957 /* HomeView.swift */,
+				14DDB9212806D44D00CC3957 /* ProfileView.swift */,
+				14DDB91B2806D40500CC3957 /* NotesView.swift */,
+				14DDB9482806FC9F00CC3957 /* AppView.swift */,
+				14CBB65428084EDE005F1A2B /* ToDoFinalView.swift */,
+				147AE466280DEE5200C1DECA /* LoginView.swift */,
+				1433DA47280EDC350067E87A /* WeatherView.swift */,
+				143774F5281DD28D00C8A3DF /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14DDC905281FFC78006BE268 /* eduFlix_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				14DDC906281FFC78006BE268 /* eduFlix_UITests.swift */,
+				14DDC908281FFC78006BE268 /* eduFlix_UITestsLaunchTests.swift */,
+				14DDC90F281FFD7F006BE268 /* HomeViewUITest.swift */,
+				148A46A128202A1300B9E552 /* Notes_UITests.swift */,
+			);
+			path = eduFlix_UITests;
+			sourceTree = "<group>";
+		};
+		14F6DA43282043D3008A8BBC /* UnitTestNotes */ = {
+			isa = PBXGroup;
+			children = (
+				14F6DA44282043ED008A8BBC /* UnitTestingNotes.swift */,
+				14F6DA462820446E008A8BBC /* UnitTestingNotesViewModel.swift */,
+			);
+			path = UnitTestNotes;
+			sourceTree = "<group>";
+		};
+		14F6DA4A28204817008A8BBC /* UnitTestingFlashcards */ = {
+			isa = PBXGroup;
+			children = (
+				14F6DA4B28204857008A8BBC /* UnitTestingFlashcards.swift */,
+				14F6DA4D282048E2008A8BBC /* UnitTestingFlashcardsViewModel.swift */,
+			);
+			path = UnitTestingFlashcards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		142210C8281F009E00CB9BCB /* eduFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142210CF281F009E00CB9BCB /* Build configuration list for PBXNativeTarget "eduFlixTests" */;
+			buildPhases = (
+				142210C5281F009E00CB9BCB /* Sources */,
+				142210C6281F009E00CB9BCB /* Frameworks */,
+				142210C7281F009E00CB9BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142210CE281F009E00CB9BCB /* PBXTargetDependency */,
+			);
+			name = eduFlixTests;
+			productName = eduFlixTests;
+			productReference = 142210C9281F009E00CB9BCB /* eduFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14D7513C28020030006DFE0F /* eduFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D7514B28020031006DFE0F /* Build configuration list for PBXNativeTarget "eduFlix" */;
+			buildPhases = (
+				14D7513928020030006DFE0F /* Sources */,
+				14D7513A28020030006DFE0F /* Frameworks */,
+				14D7513B28020030006DFE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eduFlix;
+			packageProductDependencies = (
+				14CBB6572808541D005F1A2B /* Realm */,
+				14CBB6592808541D005F1A2B /* RealmSwift */,
+			);
+			productName = eduFlix;
+			productReference = 14D7513D28020030006DFE0F /* eduFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14DDC903281FFC78006BE268 /* eduFlix_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DDC90C281FFC78006BE268 /* Build configuration list for PBXNativeTarget "eduFlix_UITests" */;
+			buildPhases = (
+				14DDC900281FFC78006BE268 /* Sources */,
+				14DDC901281FFC78006BE268 /* Frameworks */,
+				14DDC902281FFC78006BE268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DDC90B281FFC78006BE268 /* PBXTargetDependency */,
+			);
+			name = eduFlix_UITests;
+			productName = eduFlix_UITests;
+			productReference = 14DDC904281FFC78006BE268 /* eduFlix_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14D7513528020030006DFE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					142210C8281F009E00CB9BCB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 14D7513C28020030006DFE0F;
+					};
+					14D7513C28020030006DFE0F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					14DDC903281FFC78006BE268 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 14D7513C28020030006DFE0F;
+					};
+				};
+			};
+			buildConfigurationList = 14D7513828020030006DFE0F /* Build configuration list for PBXProject "eduFlix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14D7513428020030006DFE0F;
+			packageReferences = (
+				14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 14D7513E28020030006DFE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14D7513C28020030006DFE0F /* eduFlix */,
+				142210C8281F009E00CB9BCB /* eduFlixTests */,
+				14DDC903281FFC78006BE268 /* eduFlix_UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		142210C7281F009E00CB9BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D7513B28020030006DFE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141E857B280F252E00886AC6 /* WeatherData.json in Resources */,
+				14D7514828020031006DFE0F /* Preview Assets.xcassets in Resources */,
+				14C46B2F281B1559003DB014 /* Help.json in Resources */,
+				14D7514528020031006DFE0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DDC902281FFC78006BE268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142210C5281F009E00CB9BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142210CC281F009E00CB9BCB /* eduFlixTests.swift in Sources */,
+				142210D3281F021400CB9BCB /* ToDoTests.swift in Sources */,
+				14F6DA5028204935008A8BBC /* FlashcardsTest.swift in Sources */,
+				14F6DA492820455A008A8BBC /* NotesTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D7513928020030006DFE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CCEAF528180BC200ED99F2 /* NoteCardItem.swift in Sources */,
+				141E8575280F168600886AC6 /* FetchWeatherData.swift in Sources */,
+				143774F6281DD28E00C8A3DF /* CalendarView.swift in Sources */,
+				14DDB91A2806D3F900CC3957 /* ToDosView.swift in Sources */,
+				14CBB65328084D19005F1A2B /* AddBtn.swift in Sources */,
+				14CCEAF128180B8000ED99F2 /* FlashCardItem.swift in Sources */,
+				143774F9281DD2F500C8A3DF /* DeadlineView.swift in Sources */,
+				147AE470280DEF1000C1DECA /* ButtonView.swift in Sources */,
+				14F6DA4E282048E2008A8BBC /* UnitTestingFlashcardsViewModel.swift in Sources */,
+				141E8577280F24BF00886AC6 /* WeatherDetailsView.swift in Sources */,
+				14CBB65C2808543A005F1A2B /* RealmManager.swift in Sources */,
+				147AE46A280DEECD00C1DECA /* LoginHeaderView.swift in Sources */,
+				14816D3A2808C326003B0E5D /* ImagePicker.swift in Sources */,
+				14CCEAED28180B3400ED99F2 /* SectionInsetView.swift in Sources */,
+				1433DA50280EE3660067E87A /* ConsentView.swift in Sources */,
+				14377506281DDAA400C8A3DF /* CalendarDataModel.xcdatamodeld in Sources */,
+				14C46B2D281AD73C003DB014 /* NotesError.swift in Sources */,
+				1433DA48280EDC350067E87A /* WeatherView.swift in Sources */,
+				143774FE281DD3E100C8A3DF /* CalendarCoreVM.swift in Sources */,
+				141E8579280F250E00886AC6 /* WeatherModel.swift in Sources */,
+				14D7514328020030006DFE0F /* ContentView.swift in Sources */,
+				14CCEAEB28180A2C00ED99F2 /* HomeHeaderView.swift in Sources */,
+				142210D8281F062600CB9BCB /* UnitTestingTodoViewModel.swift in Sources */,
+				14CBB65128084A9D005F1A2B /* AddToDoView.swift in Sources */,
+				14DDB9492806FC9F00CC3957 /* AppView.swift in Sources */,
+				14DDB91C2806D40500CC3957 /* NotesView.swift in Sources */,
+				147AE46C280DEEE500C1DECA /* EmailView.swift in Sources */,
+				144D3FFD280826320045DE85 /* AddDeleteCards.swift in Sources */,
+				14CBB65E2808552D005F1A2B /* Task.swift in Sources */,
+				14CBB64F28084984005F1A2B /* ToDoRow.swift in Sources */,
+				14DDB9202806D42900CC3957 /* HomeView.swift in Sources */,
+				14816D432808C424003B0E5D /* NoteView.swift in Sources */,
+				14F6DA4C28204857008A8BBC /* UnitTestingFlashcards.swift in Sources */,
+				147AE472280DEF2600C1DECA /* UserNameView.swift in Sources */,
+				14377503281DD44200C8A3DF /* CalendarModelItem.swift in Sources */,
+				14816D452808C432003B0E5D /* MainView.swift in Sources */,
+				14F6DA472820446E008A8BBC /* UnitTestingNotesViewModel.swift in Sources */,
+				14DDB91E2806D40F00CC3957 /* FlashCardsView.swift in Sources */,
+				147AE467280DEE5200C1DECA /* LoginView.swift in Sources */,
+				14CCEAEF28180B5800ED99F2 /* FlashCardSectionView.swift in Sources */,
+				1433DA52280EEDAD0067E87A /* Loading.swift in Sources */,
+				14816D3D2808C396003B0E5D /* ImageDataModel.swift in Sources */,
+				141E857D280F28F900886AC6 /* Extension.swift in Sources */,
+				147AE46E280DEEF900C1DECA /* PasswordView.swift in Sources */,
+				14C46B34281B159D003DB014 /* HelpUIView.swift in Sources */,
+				14DDB9222806D44D00CC3957 /* ProfileView.swift in Sources */,
+				14CCEAF328180BA600ED99F2 /* NotesSectionView.swift in Sources */,
+				142210D6281F03FE00CB9BCB /* UnitTestingTodoView.swift in Sources */,
+				143774FC281DD39700C8A3DF /* CalendarVM.swift in Sources */,
+				14F6DA45282043ED008A8BBC /* UnitTestingNotes.swift in Sources */,
+				148F9C37280F3A2600FAF64B /* WeatherRow.swift in Sources */,
+				14C46B32281B1587003DB014 /* Help.swift in Sources */,
+				14CCEAF728180BE800ED99F2 /* ActiveTab.swift in Sources */,
+				1433DA4E280EE10C0067E87A /* LocationManager.swift in Sources */,
+				14D7514128020030006DFE0F /* eduFlixApp.swift in Sources */,
+				14DDB9252806D75700CC3957 /* Card.swift in Sources */,
+				14CBB65528084EDE005F1A2B /* ToDoFinalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DDC900281FFC78006BE268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DDC909281FFC78006BE268 /* eduFlix_UITestsLaunchTests.swift in Sources */,
+				148A46A228202A1300B9E552 /* Notes_UITests.swift in Sources */,
+				14DDC907281FFC78006BE268 /* eduFlix_UITests.swift in Sources */,
+				14DDC910281FFD7F006BE268 /* HomeViewUITest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		142210CE281F009E00CB9BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14D7513C28020030006DFE0F /* eduFlix */;
+			targetProxy = 142210CD281F009E00CB9BCB /* PBXContainerItemProxy */;
+		};
+		14DDC90B281FFC78006BE268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14D7513C28020030006DFE0F /* eduFlix */;
+			targetProxy = 14DDC90A281FFC78006BE268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		142210D0281F009E00CB9BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soreya.eduFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eduFlix.app/eduFlix";
+			};
+			name = Debug;
+		};
+		142210D1281F009E00CB9BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soreya.eduFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eduFlix.app/eduFlix";
+			};
+			name = Release;
+		};
+		14D7514928020031006DFE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14D7514A28020031006DFE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14D7514C28020031006DFE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eduFlix/Preview Content\"";
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soreya.eduFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14D7514D28020031006DFE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eduFlix/Preview Content\"";
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soreya.eduFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14DDC90D281FFC78006BE268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soreya.eduFlix-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eduFlix;
+			};
+			name = Debug;
+		};
+		14DDC90E281FFC78006BE268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soreya.eduFlix-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eduFlix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142210CF281F009E00CB9BCB /* Build configuration list for PBXNativeTarget "eduFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142210D0281F009E00CB9BCB /* Debug */,
+				142210D1281F009E00CB9BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D7513828020030006DFE0F /* Build configuration list for PBXProject "eduFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D7514928020031006DFE0F /* Debug */,
+				14D7514A28020031006DFE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D7514B28020031006DFE0F /* Build configuration list for PBXNativeTarget "eduFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D7514C28020031006DFE0F /* Debug */,
+				14D7514D28020031006DFE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DDC90C281FFC78006BE268 /* Build configuration list for PBXNativeTarget "eduFlix_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DDC90D281FFC78006BE268 /* Debug */,
+				14DDC90E281FFC78006BE268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14CBB6572808541D005F1A2B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		14CBB6592808541D005F1A2B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		14377504281DDAA400C8A3DF /* CalendarDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14377505281DDAA400C8A3DF /* CalendarDataModel.xcdatamodel */,
+			);
+			currentVersion = 14377505281DDAA400C8A3DF /* CalendarDataModel.xcdatamodel */;
+			path = CalendarDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14D7513528020030006DFE0F /* Project object */;
+}

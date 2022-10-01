@@ -1,0 +1,51 @@
+[
+    {
+        "text": "Notes",
+        "children": [
+            {
+                "text": "You can add a new note by choosing an image relevant to your note first and then edit the note in order to add your desired information"
+            }
+        ]
+    },
+    {
+        "text": "To Do's",
+        "children": [
+            {
+                "text": "Make use of the To Do's section in order to manage your time and be more organsised. Add your todo and tick it off whenever your done with it."
+            }
+        ]
+    },
+    {
+        "text": "Flashcards",
+        "children": [
+            {
+                "text": "Make use of the flashcards section and efficiently learn and memorize your selected topic. Add new cards, edit and delete them."
+            }
+        ]
+    },
+    {
+        "text": "Quick Study tips",
+        "children": [
+            {
+                "text": "1. Pick a place and time \n\n 2. Study every day \n\n 3. Plan your time \n\n 4. Discover your learning style \n\n 5. Review and revise \n\n 6. Take breaks \n\n 7. Ask for help \n\n 8. Stay motivated \n\n 9. App it up \n\n 10. Look after yourself"
+            }
+        ]
+    },
+    {
+        "text": "Be organised",
+        "children": [
+            {
+                "text": "It helps to have some plans in motion so you can make the most of your study time. \n\n Set alarms – Set alarms to remind you about your study plans. A regular reminder keeps you honest and your plans on track. \n\n  Use a wall planner – Stick a calendar or wall planner up so you can see it whenever you're studying. Mark it up with important dates, like exams and assignment due dates. Use it to block out your regular study timetable too.\n\n  Make to-do lists – Lists break tasks down into manageable chunks. At the start of the week, make a list of the things that you need to have done by the end of the week. Make a to-do list at the start of each study session too, so that you're clear about what you need to be doing with your time. \n\n  Set time limits – Before you start your study session, have a look at your to-do list and give yourself a set time to spend on each task. If you don't get something done in the set time, consider whether it's the best use of your time to keep going with it, or to start working on something else."
+            }
+        ]
+    },
+   
+    {
+        "text": "Time Management & Sources",
+        "children": [
+            {
+                "text": "Find time management tips here: https://toggl.com/track/time-management-tips/ \n\n Source: https://www.youthcentral.vic.gov.au/study-and-training/help-with-study/how-to-study-better/top-10-study-tips \n\n  "
+            }
+        ]
+    }
+]
