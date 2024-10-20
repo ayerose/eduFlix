@@ -1,4 +1,4 @@
-#AIMS AND OBJECTIVES
+# AIMS AND OBJECTIVES
 
 The aim of the education.flix study, self, and time-management apps is to support students and general learners to practise certain topics, tests, exams, etc. and offer them a place where they can organise their notes, calendar, view weather info, deadlines and to-do lists all in one application. Whatever the background of the learner, being able to learn efficiently, being organised and managing time wisely is a challenging skill to master. 
 
