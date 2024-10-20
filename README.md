@@ -1,11 +1,14 @@
 AIM AND OBJECTIVES
 
-The aim of the education.flix study, self, and time-management apps is to support students and general learners to practise certain topics, tests, exams, etc. and offer them a place where they can organise their notes, calendar, deadlines and to-do lists all in one application. Whatever the background of the learner, being able to learn efficiently, being organised and managing time wisely is a challenging skill to master. 
-
-Poor time management and note-taking, as well as non-efficient learning habits, can result in failing assignments and tests, as well as cause anxiety and stress. Furthermore, not being able to achieve set goals can be quite demotivating. Using flashcards can be an effective self-testing approach, and repetition helps figure out what information can be remembered easily and what needs additional effort, The application will comprise a UI (user interface) which will enable learners to create flashcards, which can be labelled by adding a prompt and the allocated answer to them. 
-
-The user-created cards can be edited and deleted. In addition, a timer countdown will be visible while practising the cards. Education.flix's UI enables learners to add incoming deadlines, take notes by adding images, which they may have taken in class and write to-do lists. In summary, students and learners can take notes, go to the to-do list tab to add a to-do, add a new deadline to their calendar, check the weather for their current location and more.
-
-In summary, poor learning habits and time management clearly depicts the intensity of harm it can cause, hence the implementation of education.flix intends to solve the problem and targets to help students and other learners in their daily routines and learning activities, as well as support them to analyse what they have been taught or want to teach themselves and improve their time management and organisation skills all in and improve their time management and organisation skills all in one application. 
+The aim of the education.flix study, self, and time-management apps is to support students and general learners to practise certain topics, tests, exams, etc. and offer them a place where they can organise their notes, calendar, view weather info, deadlines and to-do lists all in one application. Whatever the background of the learner, being able to learn efficiently, being organised and managing time wisely is a challenging skill to master. 
 
 
+
+
+<img width="976" alt="Screenshot 2024-10-20 at 18 59 52" src="https://github.com/user-attachments/assets/bd4ab05b-690e-48b1-8771-7fd243096234">
+<img width="863" alt="Screenshot 2024-10-20 at 18 57 57" src="https://github.com/user-attachments/assets/7aa45bb5-d217-42fe-93fd-df499283494b">
+
+<img width="1068" alt="Screenshot 2024-10-20 at 18 59 42" src="https://github.com/user-attachments/assets/ef9716f9-ee6c-4eae-a47f-9802938d02d4">
+
+<img width="870" alt="Screenshot 2024-10-20 at 18 59 04" src="https://github.com/user-attachments/assets/ffc4f587-7b6a-496c-ad31-5b0b5c797544">
+<img width="579" alt="Screenshot 2024-10-20 at 18 57 02" src="https://github.com/user-attachments/assets/2b4c80c0-a67a-4822-8524-5e2f6956ce7c">
